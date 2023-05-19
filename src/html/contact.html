@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer type="module" src="../js/script.js"></script>
+    <title>About Fresh Foods</title>
+</head>
+
+<body>
+    <custom-header></custom-header>
+    <main class="contact-main">
+        <section class="banner">
+            <div class="card left">
+                <h2>Contact Us</h2>
+                <p>We always aim to keep our customers happy and are here to help whenever you need.<br> Here are some
+                    ways
+                    you can contact us:</p>
+                <ul>
+                    <li>Address: 27 Main Street, Eketahuna 4900</li>
+                    <li>Phone: <a href="tel:06-375-9997">06-375-9997</a></li>
+                    <li>Email: <a href="mailto:eketahuna@ffstaff.co.nz">eketahuna@ffstaff.co.nz</a></li>
+
+                </ul>
+
+            </div>
+            <div class="card hours-card">
+                <h2>Opening Hours:</h2>
+                <ul>
+                    <li>Mon: 8am-8pm</li>
+                    <li>Tues: 8am-8pm</li>
+                    <li>Wed: 8am-8pm</li>
+                    <li>Thurs: 8am-8pm</li>
+                    <li>Fri: 8am-8pm</li>
+                    <li>Sat: 8am-8pm</li>
+                    <li>Sun: 8am-8pm</li>
+                </ul>
+            </div>
+            <div class="card right"><iframe title="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.293768178431!2d175.69809538665072!3d-40.64545429767027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d410418310ed5df%3A0xf7aecf00f80e529e!2s27%20Main%20Street%2C%20Eket%C4%81huna%204900!5e0!3m2!1sen!2snz!4v1684366010056!5m2!1sen!2snz"
+                    width="330" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        </section>
+
+        <aside>
+            <div class="modal-overlay hidden">
+                <div class="modal login-box hidden">
+                    <h2>Create An Account</h2>
+                    <div class="info-button"
+                        title="Fill out the fields and we will send you an email confirming your account"></div>
+                    <span class="close-modal">X</span>
+                    <form id="signUpForm" action="javascript:void(0)">
+                        <div class="user-box">
+                            <input type="text" name="fullname" aria-label="Full Name" required>
+                            <label>First & Last Name</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="email" name="email" aria-label="Email" required>
+                            <label>Email Address</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="date" name="birthdate" aria-label="Birthdate" required>
+                            <label>Birthdate</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="password" name="password" aria-label="Password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="password" name="confirmPassword" aria-label="Conform Password" required>
+                            <label>Confirm Password</label>
+                        </div>
+                        <a href="javascript:void(0)" class="submitBtn animBtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Submit
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <custom-footer></custom-footer>
+</body>
+
+</html>

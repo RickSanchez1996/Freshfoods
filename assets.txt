@@ -1,0 +1,29 @@
+Colours:--taupe-gray: hsla(353, 4%, 55%, 1);	#918889
+--pine-green: hsla(176, 95%, 24%, 1);
+	#037770
+--midnight-green: hsla(182, 93%, 11%, 1);
+#023436
+--non-photo-blue: hsla(193, 100%, 84%, 1);
+	#adedff
+--mint-cream: hsla(120, 100%, 98%, 1)
+	#f5fff5
+
+
+Fonts:font-family: 'Sigmar', cursive(weight:400);font-family: 'Ubuntu', sans-serif(weight: 400, 400 italic);
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+
+
+image credit: Photo by <a href="https://unsplash.com/@juliazolotova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julia Zolotova</a> on <a href="https://unsplash.com/photos/M_xIaxQE3Ms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/es/@mrsmaria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maria Lin Kim</a> on <a href="https://unsplash.com/photos/8RaUEd8zD-U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@dnevozhai?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Denys Nevozhai</a> on <a href="https://unsplash.com/s/photos/roads?orientation=landscape&utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@randyfath?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Randy Fath</a> on <a href="https://unsplash.com/photos/5aJVJvJ9rG8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/ja/@mary_winchester?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mary Winchester</a> on <a href="https://unsplash.com/photos/ax9t3CsGwqc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+  
+  

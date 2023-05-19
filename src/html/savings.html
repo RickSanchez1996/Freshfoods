@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer type="module" src="../js/script.js"></script>
+  <title>Fresh Foods Savings</title>
+</head>
+
+<body>
+  <custom-header></custom-header>
+  <main class="savings-main">
+    <section class="banner ">
+      <div class="card left">
+        <h2>Looking For Savings?</h2>
+        <p>Check out the table to see what your potential savings could be. We have also made you a savings calculator
+          so you calculate how much you will save with your monthly spend!</p>
+      </div><custom-table class="card savings-table">
+
+      </custom-table>
+      <div class="card right">
+        <h2>Savings Calculator</h2>
+        <label for="range-input">Monthly Spend:</label>
+        <input type="range" id="range-input" min="0" max="5000" value="50">
+        <span id="range-value"><span>$</span>50</span>
+        <p class="savings-value-label">Your estimated savings are: </p>
+        <span class="savings-value">$0</span>
+      </div>
+      </div>
+    </section>
+    <section class="savings-video">
+
+      <div class="video-container">
+        <iframe width="840" height="475" src="https://www.youtube.com/embed/PWPWoJ4js0c" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+    </section>
+  </main>
+  <aside>
+    <div class="modal-overlay hidden">
+      <div class="modal login-box hidden">
+        <h2>Create An Account</h2>
+        <div class="info-button" title="Fill out the fields and we will send you an email confirming your account">
+        </div>
+        <span class="close-modal">X</span>
+        <form id="signUpForm" action="javascript:void(0)">
+          <div class="user-box">
+            <input type="text" name="fullname" aria-label="Full Name" required>
+            <label>First & Last Name</label>
+          </div>
+          <div class="user-box">
+            <input type="email" name="email" aria-label="Email" required>
+            <label>Email Address</label>
+          </div>
+          <div class="user-box">
+            <input type="date" name="birthdate" aria-label="Birthdate" required>
+            <label>Birthdate</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" aria-label="Password" required>
+            <label>Password</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="confirmPassword" aria-label="Confirm Password" required>
+            <label>Confirm Password</label>
+          </div>
+          <a href="javascript:void(0)" class="submitBtn animBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+    </div>
+  </aside>
+
+  <custom-footer></custom-footer>
+</body>
+
+</html>

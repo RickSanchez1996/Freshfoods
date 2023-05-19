@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Foods</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer type="module" src="../js/script.js"></script>
+</head>
+
+<body>
+  <custom-header></custom-header>
+  <main class="home-main">
+    <section class="banner recipe-banner">
+      <div class="card left">
+        <h2>Welcome to the Fresh Foods loyalty plan.</h2>
+        <p>
+          Here at Fresh Foods, we value our customers as much as they value
+          our quality products. We thought, what better way to stay connected
+          and show support than offer rewards.
+        </p>
+      </div>
+
+      <div class="card right">
+        <h2>How will it work?</h2>
+        <p>
+          Just like our simple Fresh Food products, we want to keep our
+          loyalty program simple and fresh. Sign up today and start earning.
+          To sign up just click the button below.
+        </p>
+        <a href="javascript:void(0)" class="sign-up animBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Sign Up
+        </a>
+      </div>
+    </section>
+  </main>
+  <aside>
+    <div class="modal-overlay hidden">
+      <div class="modal login-box hidden">
+        <h2 class="info-button" title="Fill out the fields and we will send you an email confirming your account">Create
+          An Account</h2>
+
+        <span class="close-modal">X</span>
+        <form id="signUpForm" action="javascript:void(0)">
+          <div class="user-box">
+            <input type="text" name="fullname" aria-label="Full Name" required>
+            <label>First & Last Name</label>
+          </div>
+          <div class="user-box">
+            <input type="email" name="email" aria-label="Email" required>
+            <label>Email Address</label>
+          </div>
+          <div class="user-box">
+            <input type="date" name="birthdate" aria-label="Birthdate" required>
+            <label>Birthdate</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" aria-label="Password" required>
+            <label>Password</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="confirmPassword" aria-label="Confirm Password" required>
+            <label>Confirm Password</label>
+          </div>
+          <a href="javascript:void(0)" class="submitBtn animBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+    </div>
+  </aside>
+  <custom-footer></custom-footer>
+
+</body>
+
+</html>
